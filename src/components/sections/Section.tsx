@@ -1,14 +1,13 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
-import type { RootState } from "@/redux";
 import { setActiveSection } from "@/redux/slices/activeSection";
 
 export default function Section({ id, children }: SectionProps) {
   const dispatch = useDispatch();
-  const activeId = useSelector((state: RootState) => state.activeSection.id);
+  const previousInView = useRef(false);
 
   const { ref, inView } = useInView({
     rootMargin: "-50% 0px -50% 0px",
@@ -16,10 +15,11 @@ export default function Section({ id, children }: SectionProps) {
   });
 
   useEffect(() => {
-    if (inView && activeId !== id) {
+    if (inView && !previousInView.current) {
       dispatch(setActiveSection(id));
     }
-  }, [inView, activeId, id, dispatch]);
+    previousInView.current = inView;
+  }, [inView, id, dispatch]);
 
   return (
     <section ref={ref} id={id} className="min-h-screen">
