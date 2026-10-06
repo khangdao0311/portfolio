@@ -1,23 +1,25 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+import { env } from "@/config/env.server";
+
 export async function POST(request: NextRequest) {
   try {
-    const { to, subject, html } = await request.json();
+    const { subject, html } = await request.json();
 
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
+      host: env.MAIL_HOST,
+      port: env.MAIL_PORT,
       secure: false,
       auth: {
-        user: "khangdao0311@gmail.com",
-        pass: "iisq wtpt mhbt nbde",
+        user: env.MAIL_USER,
+        pass: env.MAIL_PASS,
       },
     });
 
     await transporter.sendMail({
-      from: "khangdao0311@gmail.com",
-      to,
+      from: env.MAIL_USER,
+      to: env.MAIL_TO,
       subject,
       html,
     });
