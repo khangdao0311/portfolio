@@ -180,6 +180,28 @@
             "description": "Build and develop website interfaces based on designs from Figma, integrate and call APIs to display data, implement responsive design, and handle form validation."
           }
         }
+      },
+      "tesoglobal": {
+        "time": "04/2026 - Present",
+        "position": "Front-End Developer & Mobile App Developer",
+        "company": "Teso Global Company Limited",
+        "description": {
+          "text-1": "At Teso Global, I take on the role of developing a mobile application and an admin dashboard for VitaDairy's loyalty program. My work includes interface design, API integration, managing data display and search states, bug fixing, and ensuring the interface runs reliably on both iOS and Android.",
+          "text-2": "I work on a ticket basis, coordinating closely with the backend, QA, and design teams to keep both delivery timelines and handover quality on track. In addition, I proactively review the Front-End after each release and resolve issues reported by users.",
+          "text-3": "I apply AI to my coding workflow, combining rules with an automated review skill right after a piece of work is finished, which shortens development time and improves code quality. Alongside my work, I proactively learn new technologies and keep my knowledge up to date to meet the demands of the job."
+        },
+        "projects": {
+          "vitadairy-app": {
+            "name": "VitaDairy - Earn Rewards",
+            "position": "Mobile App Developer",
+            "description": "Build a mobile application based on the design for VitaDairy's loyalty program, running on both iOS and Android. Integrate APIs, handle loading, empty, and error states; build member registration flows, task tracking, and points redemption."
+          },
+          "vitadairy-web": {
+            "name": "VitaDairy - Admin Dashboard",
+            "position": "Front-End Developer",
+            "description": "Build an internal admin dashboard according to business requirements and connect it to the API. Design data management forms with input validation and clear error messages; ensure the interface stays usable across screen sizes."
+          }
+        }
       }
     }
   },

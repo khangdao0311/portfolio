@@ -232,4 +232,27 @@ export const getExperiences = (t: (key: string) => any) => [
       },
     ],
   },
+  {
+    time: t("workStages.tesoglobal.time"),
+    position: t("workStages.tesoglobal.position"),
+    company: t("workStages.tesoglobal.company"),
+    description: [
+      t("workStages.tesoglobal.description.text-1"),
+      t("workStages.tesoglobal.description.text-2"),
+    ],
+    projects: [
+      {
+        name: t("workStages.tesoglobal.projects.vitadairy-app.name"),
+        position: t("workStages.tesoglobal.projects.vitadairy-app.position"),
+        description: t("workStages.tesoglobal.projects.vitadairy-app.description"),
+        technologies: ["Flutter"],
+      },
+      {
+        name: t("workStages.tesoglobal.projects.vitadairy-web.name"),
+        position: t("workStages.tesoglobal.projects.vitadairy-web.position"),
+        description: t("workStages.tesoglobal.projects.vitadairy-web.description"),
+        technologies: ["Next.js", "Tailwind CSS", "MUI", "React Query", "Redux Toolkit"],
+      },
+    ],
+  }
 ];
