@@ -41,7 +41,7 @@ function Header() {
             href={`/${locale}`}
             className="text-2xl font-black font select-none text-[theme(--primary-light)] text-shadow-[theme(--primary-light)]"
           >
-            KhangDao0311
+            Khang Dao
           </a>
           <div className="flex gap-2 items-center justify-center">
             <div className="hidden lg:flex">

@@ -180,6 +180,28 @@
             "description": "Xây dựng và phát triển giao diện website dựa trên các thiết kế từ Figma, tích hợp và gọi API để hiển thị dữ liệu, triển khai thiết kế đáp ứng (responsive design) và xử lý xác thực biểu mẫu."
           }
         }
+      },
+      "tesoglobal": {
+        "time": "04/2026 - Hiện tại",
+        "position": "Front-End Developer & Mobile App Developer",
+        "company": "Công ty TNHH Teso Global",
+        "description": {
+          "text-1": "Tại Teso Global, tôi đảm nhận vai trò phát triển ứng dụng di động và trang quản trị cho chương trình tích điểm của khách hàng VitaDairy. Công việc của tôi bao gồm thiết kế giao diện, kết nối API, quản lý trạng thái hiển thị dữ liệu và tìm kiếm, sửa lỗi, đồng thời bảo đảm giao diện hoạt động ổn định trên cả iOS và Android.",
+          "text-2": "Tôi tham gia theo hình thức làm việc theo ticket, phối hợp chặt chẽ với đội backend, QA và thiết kế để bảo đảm tiến độ cũng như chất lượng bàn giao. Bên cạnh đó, tôi chủ động rà soát lại phần Front-End sau mỗi đợt triển khai và xử lý các lỗi phát sinh từ phía người dùng.",
+          "text-3": "Tôi ứng dụng AI vào quy trình viết code, kết hợp rule và skill review tự động ngay sau khi hoàn thành, giúp rút ngắn thời gian phát triển và nâng cao chất lượng mã nguồn. Song song với công việc, tôi chủ động học công nghệ mới và cập nhật kiến thức thường xuyên để đáp ứng yêu cầu công việc."
+        },
+        "projects": {
+          "vitadairy-app": {
+            "name": "VitaDairy - Đổi Muỗng Nhận Quà",
+            "position": "Mobile App Developer",
+            "description": "Xây dựng ứng dụng di động theo thiết kế cho chương trình tích điểm của VitaDairy, chạy trên cả iOS và Android. Kết nối API, xử lý các trạng thái tải, rỗng và lỗi; xây dựng luồng đăng ký thành viên, theo dõi nhiệm vụ và đổi điểm lấy quà."
+          },
+          "vitadairy-web": {
+            "name": "VitaDairy - Web admin",
+            "position": "Front-End Developer",
+            "description": "Xây dựng trang quản trị nội bộ theo yêu cầu nghiệp vụ và kết nối API. Thiết kế biểu mẫu quản lý dữ liệu với kiểm tra đầu vào và thông báo lỗi rõ ràng; đảm bảo giao diện dùng được trên nhiều kích thước màn hình."
+          }
+        }
       }
     }
   },
